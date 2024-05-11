@@ -1,0 +1,56 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #373131;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.brand {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loader {
+  margin-top: 20px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.user-card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.user-card p {
+  color: #777;
+}
